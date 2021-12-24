@@ -1,0 +1,87 @@
+.box{
+      
+    width: 1813px;
+    height: 630px;    
+    background: #E7E7E7;
+    
+    margin: 0 auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 0px;
+    border-color: #AAAAAA;
+    
+  
+  
+  }
+  main p{
+    color: #981E32;
+    font-size: 25px;
+    text-align-last: left;
+    margin-left: 200px;
+    margin-top: 15px;
+    
+    font-weight: bold;
+
+  }
+ 
+
+  .change-button {
+    display: block;
+    margin-top: 20px;
+    margin-left: 170px;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  
+  .change-button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #707070;
+  }
+  
+  .change-button1:hover {
+    border-color:#981E32;
+    color: #981E32;
+  }
+
+  
+
+  .update-button {
+    display: block;
+    margin-top: 40px;
+    margin-left: 170px;
+    border: none;
+    color: white;
+    padding: 15px 55px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  
+  .update-button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #707070;
+  }
+  
+  .update-button1:hover {
+    border-color:#981E32;
+    color: #981E32;
+  }
+
+  

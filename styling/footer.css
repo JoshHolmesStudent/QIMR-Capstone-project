@@ -1,0 +1,124 @@
+/* Footer stuff */
+
+.left-bottom {
+    display: block;
+    position: fixed;
+    right: 620px;
+    bottom:51px;
+    width: 200px;
+  }
+  .line{
+      margin-top: 20px;
+    width: 1200px;
+    height: 1px;    
+    background: #000000;
+  }
+
+  footer{
+    background-color: white;
+    border-top: 2px solid;
+    border-color: rgb(112, 112, 112);
+    height: 188px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    
+}
+
+footer h2{
+    margin-top: 15px;
+    margin-left: 100px;
+color: black;
+font-family:"Open Sans",sans-serif;
+font-weight: 700;
+font-size: 1.125rem;
+
+}
+footer p{
+    margin-left: 100px;
+    width: 940px;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    background: #fff;
+    z-index: 3;
+
+}
+
+footer p2{
+    display: block;
+    margin-top: -10px;
+    margin-left: 100px;
+    width: 940px;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    background: #fff;
+    z-index: 3;
+
+}
+
+
+
+
+
+/* Icons in footer */
+
+  .fa {
+    padding: 8px;
+    font-size: 10px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    background: red;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3e3e42;
+    color: white;
+    display: block;
+    position: fixed;
+    right: 800px;
+    bottom: 1px;
+
+  }
+
+  .fa-twitter {
+    background: #3e3e42;
+    color: white;
+    display: block;
+    position: fixed;
+    right: 760px;
+    bottom: 1px;
+  }
+
+  .fa-instagram {
+    background: #3e3e42;
+    color: white;
+    display: block;
+    position: fixed;
+    right: 720px;
+    bottom: 1px;
+  }
+
+ 
+  .fa-youtube {
+    background: #3e3e42;
+    color: white;
+    display: block;
+    position: fixed;
+    right: 680px;
+    bottom: 1px;
+  }
+
+  .fa-linkedin {
+    background: #3e3e42;
+    color: white;
+    display: block;
+    position: fixed;
+    right: 640px;
+    bottom: 1px;
+  }
