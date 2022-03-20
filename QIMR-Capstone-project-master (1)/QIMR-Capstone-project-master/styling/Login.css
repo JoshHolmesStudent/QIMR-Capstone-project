@@ -1,0 +1,96 @@
+
+ 
+  /* main stuff */
+
+
+
+  main p{
+    color: #981E32;
+    font-size: 25px;
+    text-align-last: left;
+    margin-left: 30px;
+    font-weight: bold;
+
+  }
+
+
+  main p2{
+    display: block;
+    width: 240px;
+      margin-left: 30px;
+    font-size: 12px;  
+    font-weight: bold;
+    
+
+  }
+  .TextBox1{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 230px;
+
+  }
+ 
+
+  .TextBox1:hover {
+    border-color: #981E32;
+  }
+
+  body p3{
+    display: block;
+    color:#981E32 ;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 30px;
+  }
+body p3:hover{
+  color: #000;
+}
+
+
+
+.button {
+  display: block;
+  margin-top: 30px;
+  margin-left: 30px;
+  border: none;
+  color: #E7E7E7;
+  padding: 5px 83px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.button1 {
+  background-color: #E7E7E7;
+  color: black;
+  border: 2px solid #707070;
+}
+
+.button1:hover {
+  background-color: white;
+}
+
+  
+.box{
+      
+  width: 320px;
+  height: 400px;    
+  background: #E7E7E7;
+  
+  margin: 0 auto;
+  margin-top: 100px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  border-color: #AAAAAA;
+  
+
+
+}
+
