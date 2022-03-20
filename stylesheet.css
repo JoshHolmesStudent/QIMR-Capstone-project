@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+/* Navbar logo */
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand img {
+  height: 70px;
+  width: auto;
+  padding: 7px 14px;
+}
+
+/* Footer Styling */
+
+.footer-img {
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  width: 200px;
+}
+
+.line {
+  margin-top: 20px;
+  width: 75%;
+  height: 1px;
+  background: #000000;
+}
+
+footer {
+  background-color: white;
+  border-top: 2px solid;
+  border-color: rgb(112, 112, 112);
+  width: 75%;
+  position: fixed;
+  bottom: 0px;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2.1875em;
+    padding-top: 2.1875em;
+    justify-content:space-between;
+}
+
+footer h2 {
+  margin-top: 15px;
+  margin-left: 100px;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+footer p {
+  display: block;
+  text-align: left;
+  width: 75%;
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+  background: #fff;
+  margin-left: 50px;
+  overflow-wrap: break-word ;
+}
+
+footer p2 {
+  display: block;
+  text-align: left;
+  margin-left: 50px;
+  width: 75%;
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+  background: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #32394D;
+    margin: 0;
+}
+
+
+/* Icons in footer */
+
+.fa {
+  padding: 8px;
+  font-size: 10px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  background: #981E32;
+  color: white;
+}
+.fa-facebook {
+  background: #3e3e42;
+  color: white;
+  display: block;
+  flex-wrap: nowrap;
+  position: fixed;
+  right: 15em;
+}
+
+.fa-twitter {
+  background: #3e3e42;
+  color: white;
+  display: block;
+  flex-wrap: nowrap;
+  position: fixed;
+  right: 12em;
+}
+
+.fa-instagram {
+  background: #3e3e42;
+  color: white;
+  display: block;
+  flex-wrap: nowrap;
+  position: fixed;
+  right: 9em;
+}
+
+.fa-youtube {
+  background: #3e3e42;
+  color: white;
+  display: block;
+  flex-wrap: nowrap;
+  position:fixed;
+  right: 6em;
+}
+
+.fa-linkedin {
+  background: #3e3e42;
+  color: white;
+  display: block;
+  flex-wrap: nowrap;
+  position: fixed;
+  right: 3em;
+}
