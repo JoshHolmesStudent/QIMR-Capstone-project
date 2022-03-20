@@ -37,9 +37,11 @@
       <p2>
         Enter your username and password into the fields below and click 'Login'.
       </p2>
-      
-      <input class="TextBox1" type="text" name="user/email" placeholder="Username/Email">
-      <input class="TextBox1" id="userPassword" type="password" placeholder="Password">
+      <form action = "submission-page.html" method="GET">
+      <input class="TextBox1" type="email" name="email" placeholder="Email" required>
+    
+      <input class="TextBox1" name ="password" id="userPassword" type="password" placeholder="Password" required>
+    
       <!-- <input class="TextBox1" type="text" name="password" placeholder="Password"> -->
       
       <a href="#">
@@ -47,8 +49,16 @@
         Forgotten your password?
       </p3>
     </a>
-    <a href="submission-page.html">
-    <button class="button button1">Login</button>
+
+    <a href="registerUser.html">
+      <p3>
+        Register account
+      </p3>
+    </a>
+
+    <!--<a href="submission-page.html">-->
+    <button  type="submit" class="button button1">Login</button>
+  </form>
   </a>
 
     </main>
