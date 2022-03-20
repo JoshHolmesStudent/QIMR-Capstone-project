@@ -8,10 +8,10 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Response Vector Mosquito</title>
-    <link rel="stylesheet" href="styling/Login.css">
     <link rel="stylesheet" href="styling/footer.css">
     <link rel="stylesheet" href="styling/header.css">
     <link rel="stylesheet" href="styling/Background.css">
+    <link rel="stylesheet" href="styling/submission-page.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    
 
@@ -20,7 +20,7 @@
       
     <h1>
       <a href="https://www.qimrberghofer.edu.au/">
-<img src="images/logo.svg"  height = "100px" alt="QIMR logo-stacked" class="main-logo">      
+      <img src="images/logo.svg"  height = "100px" alt="QIMR logo-stacked" class="main-logo">
     </a>
       <img src="images/pngfind.com-white-house-logo-png-5898244.png" alt="Home Logo"  class="home">
     
@@ -30,36 +30,86 @@
     <a href="#">
       <p>MENU</p>
     </a>
+    <img src="images/PinClipart.com_appliance-repair-clipart_4968268.png" alt="Home Logo"  class="profile">
+    <a href="profile-page.html">
+        <p3>Profile</p3>
+      </a>
+
+
+
     </h1>
 
     <main class="box">
-      <p>Portal Login</p>
+      <p>Submission</p>
       <p2>
-        Enter your username and password into the fields below and click 'Login'.
+        
       </p2>
-      <form action = "submission-page.html" method="GET">
-      <input class="TextBox1" type="email" name="email" placeholder="Email" required>
-    
-      <input class="TextBox1" name ="password" id="userPassword" type="password" placeholder="Password" required>
-    
-      <!-- <input class="TextBox1" type="text" name="password" placeholder="Password"> -->
       
-      <a href="#">
-      <p3>
-        Forgotten your password?
-      </p3>
-    </a>
+      
+      <label class="Label" for="start">Date Found:</label>
 
-    <a href="registerUser.html">
-      <p3>
-        Register account
-      </p3>
-    </a>
+<input class="TextBox1" type="date" id="start" name="Date-found"
+       
+       min="2020-01-01" max="2023-12-31">
+      
+       <label class="Label" for="Mosquito">Species of Mosquito:</label>
 
-    <!--<a href="submission-page.html">-->
-    <button  type="submit" class="button button1">Login</button>
-  </form>
-  </a>
+       <select class="TextBox1" name="Mosquito" id="Mosquito-species">
+         <option value="Asian Tiger">Asian-Tiger</option>
+         <option value="Yellow Fever">Yellow-Fever</option>
+         <option value="Aedes">Aedes</option>
+         <option value="Culex">Culex</option>
+       </select>
+
+       <label class="Label" for="placeholder1">placeholder1:</label>
+
+       <select class="TextBox1" name="placeholder1" id="placeholder1">
+         <option value="placeholder1.1">placeholder 1.1</option>
+         <option value="placeholder1.2">placeholder 1.2</option>
+         <option value="placeholder1.3">placeholder 1.3</option>
+         <option value="placeholder1.4">placeholder 1.4</option>
+       </select>
+
+
+       <label class="Label" for="placeholder2">placeholder2:</label>
+
+       <select class="TextBox1" name="placeholder2" id="placeholder2">
+         <option value="placeholder2.1">placeholder 2.1</option>
+         <option value="placeholder2.2">placeholder 2.2</option>
+         <option value="placeholder2.3">placeholder 2.3</option>
+         <option value="placeholder2.4">placeholder 2.4</option>
+       </select>
+
+       <label class="Label" for="placeholder3">placeholder3:</label>
+
+       <select class="TextBox1" name="placeholder3" id="placeholder3">
+         <option value="placeholder3.1">placeholder 3.1</option>
+         <option value="placeholder3.2">placeholder 3.2</option>
+         <option value="placeholder3.3">placeholder 3.3</option>
+         <option value="placeholder3.4">placeholder 3.4</option>
+         
+       </select>
+
+       <!-- put this in a form -->
+       <input  class="TextBox1" id = "file" type = "file" name = "file" >
+       
+
+
+
+      
+      <p3>
+        Size Limit: 20 GB
+
+      </p3>
+
+      <p4>
+        Formats Allowed: .Fasta, .TXT
+      </p4>
+      <a href="results.html">
+      <button class="submit-button submit-button1">Submit</button>
+    </a>
+    <!-- <button class="button button1">Login</button> -->
+
 
     </main>
 
