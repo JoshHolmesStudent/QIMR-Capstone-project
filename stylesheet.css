@@ -37,23 +37,18 @@ body {
 
 .line {
   margin-top: 20px;
-  width: 75%;
+  width: 97%;
   height: 1px;
   background: #000000;
 }
 
 footer {
   background-color: white;
-  border-top: 2px solid;
-  border-color: rgb(112, 112, 112);
   width: 75%;
-  position: fixed;
-  bottom: 0px;
+  align-items: center;
 }
 
 .footer-wrapper {
-    display: flex;
-    flex-wrap: wrap;
     padding-bottom: 2.1875em;
     padding-top: 2.1875em;
     justify-content:space-between;
@@ -61,7 +56,7 @@ footer {
 
 footer h2 {
   margin-top: 15px;
-  margin-left: 100px;
+  margin-left: 50px;
   color: black;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
@@ -115,44 +110,39 @@ footer a {
 .fa-facebook {
   background: #3e3e42;
   color: white;
-  display: block;
+  display: flex;
   flex-wrap: nowrap;
-  position: fixed;
-  right: 15em;
+  float: right;
 }
 
 .fa-twitter {
   background: #3e3e42;
   color: white;
-  display: block;
+  display: flex;
   flex-wrap: nowrap;
-  position: fixed;
-  right: 12em;
+  float: right;
 }
 
 .fa-instagram {
   background: #3e3e42;
   color: white;
-  display: block;
+  display: flex;
   flex-wrap: nowrap;
-  position: fixed;
-  right: 9em;
+  float: right;
 }
 
 .fa-youtube {
   background: #3e3e42;
   color: white;
-  display: block;
+  display: flex;
   flex-wrap: nowrap;
-  position:fixed;
-  right: 6em;
+  float: right;
 }
 
 .fa-linkedin {
   background: #3e3e42;
   color: white;
-  display: block;
+  display: flex;
   flex-wrap: nowrap;
-  position: fixed;
-  right: 3em;
+  float: right;
 }
