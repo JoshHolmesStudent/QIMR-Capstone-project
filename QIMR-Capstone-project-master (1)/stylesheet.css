@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+/* Navbar logo */
+nav{
+  position: relative;
+}
+
+
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: relative;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand img {
+  height: 70px;
+  width: auto;
+  padding: 7px 14px;
+}
+
+/* Footer Styling */
+
+.footer-img {
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  width: 200px;
+}
+
+.line {
+  margin-top: 20px;
+  width: 97%;
+  height: 1px;
+  background: #000000;
+}
+
+footer {
+  background-color: white;
+  width: 100%;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.footer1 {
+  width: 75%;
+  margin-left: 12vw;
+} 
+
+.footer-wrapper {
+  display: flex;
+  padding-bottom: 2.1875em;
+  padding-top: 2.1875em;
+  justify-content: space-between;
+}
+
+
+footer h2 {
+  margin-top: 15px;
+  margin-left: 50px;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+footer p {
+  display: block;
+  text-align: left;
+  width: 75%;
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+  background: #fff;
+  margin-left: 50px;
+  overflow-wrap: break-word;
+}
+
+footer p2 {
+  display: block;
+  text-align: left;
+  margin-left: 50px;
+  width: 75%;
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+  background: #fff;
+}
+
+footer a {
+  text-decoration: none;
+  color: #32394d;
+  margin: 0;
+}
+
+/* Icons in footer */
+
+.fa {
+  padding: 8px;
+  font-size: 10px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  background: #981e32;
+  color: white;
+}
+.fa-facebook {
+  background: #3e3e42;
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  float: right;
+}
+
+.fa-twitter {
+  background: #3e3e42;
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  float: right;
+}
+
+.fa-instagram {
+  background: #3e3e42;
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  float: right;
+}
+
+.fa-youtube {
+  background: #3e3e42;
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  float: right;
+}
+
+.fa-linkedin {
+  background: #3e3e42;
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  float: right;
+}
