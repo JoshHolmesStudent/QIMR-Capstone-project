@@ -5,15 +5,57 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Open Sans",sans-serif;
   height: 100%;
 }
 
-/* Navbar logo */
+/* Navbar */
 nav{
-  position: relative;
+  background-color: #981532;
+  color: #fff;
 }
 
+.nav-item a{
+  color: #fff;
+  font-size: 20px;
+}
+
+.nav-item a:hover, .active {
+  text-decoration: underline;
+  color: #fff;
+}
+
+
+/* Main Login page */
+
+.Login {
+  margin: 8vw 32vw;
+  padding: 0.5rem 0;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25em;
+}
+
+.Login h1 {
+  text-align: center;
+  color: #981532;
+}
+
+.sign-in {
+  background-color: #981E32;
+  color: #fff;
+  border-color: #981E32;
+  padding: 5px;
+}
+
+.sign-in:hover {
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0 0);
+}
+
+/* Navbar logo */
+nav {
+  position: relative;
+}
 
 .navbar-brand {
   transform: translateX(-50%);
@@ -40,75 +82,91 @@ nav{
   width: 200px;
 }
 
-.line {
-  margin-top: 20px;
-  width: 97%;
-  height: 1px;
-  background: #000000;
+hr {
+  width: 100%;
+  margin: 0;
 }
 
 footer {
   background-color: white;
   width: 100%;
   position: relative;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1030;
+  z-index: 3;
 }
 
 .footer1 {
   width: 75%;
   margin-left: 12vw;
-} 
+}
 
 .footer-wrapper {
   display: flex;
-  padding-bottom: 2.1875em;
-  padding-top: 2.1875em;
   justify-content: space-between;
 }
 
+.Top-footer {
+  padding:  35px 0;
+}
+
+.bottom-footer{
+  padding: 35px 0;
+}
 
 footer h2 {
   margin-top: 15px;
-  margin-left: 50px;
   color: black;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  font-size: 1.125rem;
+  font-size: 18px;
 }
 
 footer p {
   display: block;
   text-align: left;
-  width: 75%;
   font-size: 14px;
   color: #000;
-  font-weight: bold;
   background: #fff;
-  margin-left: 50px;
   overflow-wrap: break-word;
+  margin: 0;
 }
 
-footer p2 {
-  display: block;
-  text-align: left;
-  margin-left: 50px;
-  width: 75%;
-  font-size: 14px;
-  color: #000;
-  font-weight: bold;
-  background: #fff;
+.site-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.item::before {
+  display: inline-block;
+  content: "|";
+  padding: 0 0.3125rem;
 }
 
 footer a {
   text-decoration: none;
   color: #32394d;
   margin: 0;
+  font-size: 14px;
+}
+
+footer a:hover {
+  color: #981532;
 }
 
 /* Icons in footer */
+
+.social-media ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.icons {
+  padding: 0 5px;
+  display: block;
+}
 
 .fa {
   padding: 8px;
@@ -127,7 +185,6 @@ footer a {
   color: white;
   display: flex;
   flex-wrap: nowrap;
-  float: right;
 }
 
 .fa-twitter {
@@ -135,7 +192,6 @@ footer a {
   color: white;
   display: flex;
   flex-wrap: nowrap;
-  float: right;
 }
 
 .fa-instagram {
@@ -143,7 +199,6 @@ footer a {
   color: white;
   display: flex;
   flex-wrap: nowrap;
-  float: right;
 }
 
 .fa-youtube {
@@ -151,7 +206,6 @@ footer a {
   color: white;
   display: flex;
   flex-wrap: nowrap;
-  float: right;
 }
 
 .fa-linkedin {
@@ -159,5 +213,4 @@ footer a {
   color: white;
   display: flex;
   flex-wrap: nowrap;
-  float: right;
 }
